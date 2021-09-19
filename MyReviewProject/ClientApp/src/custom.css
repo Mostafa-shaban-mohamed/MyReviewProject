@@ -1,0 +1,236 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    /*border: 1px solid #ccc;*/
+    background-color: transparent;
+}
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        float: left;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #308edc;
+    border-radius: .25rem;
+    margin-bottom: 25px;
+}
+
+.createRevField{
+    margin:5px 15px;
+    color: #308edc;
+}
+
+.tabcontent h3 {
+    color: #308edc;
+    margin: 10px;
+}
+
+.reviewBlocks {
+    border: 2px solid #308edc;
+    border-radius: .40rem;
+    padding: 10px;
+    margin: 8px 0;
+    text-align: center;
+    color: #308edc;
+}
+
+.btn-rev {
+    padding: 10px;
+    margin: 5px;
+    border: 0.5px solid #1b6ec2;
+    border-radius: .25rem;
+    color: white;
+    background-color: #308edc;
+}
+
+.btn-rev:hover {
+    color: #308edc;
+    background-color: white;
+}
+
+.tablinks {
+    border: 0.5px solid #1b6ec2;
+    border-bottom: none;
+    border-radius: .25rem;
+    background-color: inherit;
+    color: #308edc;
+}
+    /* Change background color of buttons on hover */
+    .tablinks:hover {
+        background-color: #308edc;
+        color: white;
+    }
+
+    /* Create an active/current tablink class */
+    .tablinks.active {
+        background-color: #308edc;
+        color: white;
+    }
+
+/* Search Box */
+.tab .search-container {
+    float: right;
+}
+.tab #SearchBox {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 0.5px solid #308edc;
+    border-radius: 0.25rem;
+}
+.tab #SearchBox:focus {
+    box-shadow: #308edc -3px 3px;
+}
+.tab .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #308edc;
+    font-size: 17px;
+    border: .5px solid;
+    cursor: pointer;
+    color: white;
+}
+    .tab .search-container button:hover {
+        color: #308edc;
+        background: white;
+    }
+/*error input form*/
+.error {
+    margin-left: 5px;
+    font-size: 13px;
+    color: red;
+}
+/* modal pop up */
+.modalClass {
+    text-align: center;
+    margin-top: 100px;
+} 
+
+.modal-content{
+    color: #308edc;
+}
+
+.modal-header h5{
+    margin-left: auto;
+    text-align: center;
+}
+
+.modal-body p {
+    text-align: justify;
+    text-justify:inter-word;
+    margin: 12px;
+}
+
+.modal-body .writtenBy{
+    text-align: left;
+    margin: 2px;
+    font-size: .8rem;
+}
+
+.close span{
+    color: #0366d6;
+}
+
+.commentField{
+    border: 2px ridge #308edc;
+    padding: 3px;
+    margin: 5px;
+}
+
+#commentList{
+    list-style: none;
+    padding: 5px;
+}
+
+#singleComment{
+    border: 1px solid #308edc;
+    border-radius: .5rem;
+    padding: 5px;
+    margin: 5px;
+}
+
+#singleComment:hover {
+    background-color: #308edc;
+    color: white;
+}
+
+    #singleComment:hover .btn-rev{
+        color: #308edc;
+        background-color: white;
+    }
+        #singleComment:hover .btn-rev:hover {
+            background-color: #308edc;
+            color: white;
+            border-color: white;
+        }
+
+body {
+    color: #308edc;
+}
+.HomePage {
+    color: #308edc;
+    text-align: center;
+}
+
+.HomePage h1 {
+    margin-top: 15%;
+}
+
+.getStart {
+    position: center;
+    bottom: 30%;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-In {
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+#startBtn {
+    margin-top: 30px;
+}

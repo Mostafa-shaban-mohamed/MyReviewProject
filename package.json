@@ -1,0 +1,24 @@
+{
+  "name": "myreviewproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "react-bootstrap": "^1.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mostafa-shaban-mohamed/MyReviewProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mostafa-shaban-mohamed/MyReviewProject/issues"
+  },
+  "homepage": "https://github.com/Mostafa-shaban-mohamed/MyReviewProject#readme"
+}

@@ -7,3 +7,9 @@ React + ASP.NET Core 5 (web app to review products)
 <li>CRUD Reviews</li>
 <li>CRUD Comments to reviews</li>
 </ul>
+LinkedIn Posts:
+<ul>
+  <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:6845769489137602560/">Overview</a></li>
+  <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:6845764511983538177/">Features</a></li>
+</ul>
+<a href="https://www.linkedin.com/in/mostafa-shaaban-538b20180/">My LinkedIn Account</a>
